@@ -14,5 +14,6 @@ for question in ["Climbing Nekala", "Climbing Lielahti"]:
             "question": question,
             "options": json.dumps(options),
             "is_anonymous": "false",
+            "allows_multiple_answers": "true",
         },
     )
